@@ -10,6 +10,7 @@ Tap and Play is an engaging web3 game where players tap to earn points and rewar
 - **Robust Backend**: Powered by Express.js for efficient server-side operations.
 - **Daily Rewards**: Players can earn daily login rewards, enhancing player retention and engagement.
 - **Energy Management**: Strategic energy restoration mechanics ensure a balanced and challenging gameplay.
+- **Robo Mine**: Offline miner.
 
 ## Technologies Used
 - **Frontend**: React
