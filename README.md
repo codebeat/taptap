@@ -1,6 +1,6 @@
 # Tap and Play Web3 Game 🎮
 	---
-## 🔧 ⚙️ App in development stage ⚙ ⛏️
+## ⚙️ App in development stage ⚙
 
 Tap and Play is an engaging web3 game where players tap to earn points and rewards. The game is developed using React for the frontend and Express.js for the backend, providing a seamless and interactive gaming experience.
 
