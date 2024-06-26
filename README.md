@@ -38,7 +38,7 @@ Follow these steps to set up the project on your local machine.
    ```bash
    cd backend
    npm install
-   npm run [ dev or build ]
+   npm run dev 
    
 4. **Data Base**:
    ```bash
