@@ -1,0 +1,23 @@
+// Success Responses
+res.status(200).json({ message: 'Success', data: responseData });
+res.status(201).json({ message: 'Success', data: [] });
+res.status(204).send(); //send a No Content response
+
+//Client Error Responses
+res.status(400).json({ error: 'Bad Request', message: 'Invalid input data' });
+res.status(401).json({ error: 'Unauthorized', message: 'Authentication required' });
+res.status(402).json({ error: 'Payment Required', message: 'Payment Required contact team' });
+res.status(403).json({ error: 'Forbidden', message: 'You do not have access to this resource' });
+res.status(404).json({ error: 'Not Found', message: 'Resource not found' });
+res.status(405).json({ error: 'Invalid Method', message: 'Method Not Allowed' });
+res.status(409).json({ error: 'Conflict', message: 'Insert or update operation failed' });
+res.status(422).json({ error: 'Unprocessable Entity', message: 'Validation failed for the input data' });
+
+// Server Error Responses
+res.status(500).json({ error: 'Internal Server Error', message: 'An error occurred on the server' });
+res.status(502).json({ error: 'Bad Gateway', message: 'Invalid response from upstream server' });
+res.status(503).json({ error: 'Service Unavailable', message: 'The server is temporarily unable to service your request' });
+
+//Redirect
+res.status(301).redirect('/[URL]');
+
